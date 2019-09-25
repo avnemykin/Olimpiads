@@ -9,9 +9,6 @@ with open("output.txt","w") as f:
     n = str(res).find('.')
     drob = str(res)[n+1:]
     
-
-
-
     if int(drob) == 0:
         f.write(str(int(res)))
     elif len(drob)==1:
